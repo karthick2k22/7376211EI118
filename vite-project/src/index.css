@@ -1,0 +1,46 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #bcbccc;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+}
+
+.head{
+  display: flex;
+  justify-content: space-around;
+}
+.mainheader{
+ align-items: center;
+}
+
+.search-form{
+   margin-top: 25px;
+  
+}
+.input-bar{
+  outline: none;
+  height: 30px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+}
+
+.card-main-div{
+  height: 350px;
+  width: 300px;
+  background-color: rgb(239, 244, 242);
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  
+}
